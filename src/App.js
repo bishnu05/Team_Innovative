@@ -1,12 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { Homepage } from "./Pages/Homepage";
-import { MainRoutes } from "./Pages/MainRoutes";
+
+import { StopWatch } from "./Components/StopWatch";
 
 function App() {
   return (
     <div className="App">
-      <MainRoutes />
+      <StopWatch />
     </div>
   );
 }
