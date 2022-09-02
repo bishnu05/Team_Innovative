@@ -1,10 +1,12 @@
 
-import './App.css';
+import "./App.css";
+
+import { StopWatch } from "./Components/StopWatch";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <StopWatch />
     </div>
   );
 }
