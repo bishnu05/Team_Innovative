@@ -1,6 +1,6 @@
 export const Btn = (props) => {
   return (
-    <div>
+    <div className="btnContainer">
       {props.status === 0 ? (
         <button className="" onClick={props.start}>
           Start
