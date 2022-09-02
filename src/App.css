@@ -1,0 +1,16 @@
+.btnContainer button {
+    border: none;
+    width: 60px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: rgb(60, 0, 172);
+    color: white;
+    margin: 10px 5px 0 0;
+    font-size: .8rem;
+
+}
+
+.time {
+    font-size: 1.25rem;
+    margin: auto;
+}

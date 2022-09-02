@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 import { Btn } from "./Btn";
 import { Display } from "./Display";
 
@@ -6,9 +7,6 @@ export const StopWatch = () => {
   const [time, setTime] = useState({ ms: 0, s: 0, m: 0 });
   const [interv, setInterv] = useState();
   const [status, setStatus] = useState(0);
-  // Not started = 0
-  // started = 1
-  // stopped = 2
 
   const start = () => {
     run();
@@ -47,8 +45,8 @@ export const StopWatch = () => {
   const resume = () => start();
 
   return (
-    <div className="main-section">
-      <div className="clock-holder">
+    <div className="main">
+      <div className="timer">
         <div className="stopwatch">
           <Display time={time} />
           <Btn

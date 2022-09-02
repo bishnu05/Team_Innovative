@@ -1,13 +1,15 @@
-
+import Draggable from "react-draggable";
 import "./App.css";
 
 import { StopWatch } from "./Components/StopWatch";
 
 function App() {
   return (
-    <div className="App">
-      <StopWatch />
-    </div>
+    <Draggable>
+      <div className="App">
+        <StopWatch />
+      </div>
+    </Draggable>
   );
 }
 
