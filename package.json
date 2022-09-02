@@ -3,9 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/helper-string-parser": "^7.18.10",
+    "@babel/plugin-syntax-import-assertions": "^7.18.6",
+    "@csstools/postcss-cascade-layers": "^1.0.5",
+    "@csstools/postcss-nested-calc": "^1.0.0",
+    "@humanwhocodes/gitignore-to-minimatch": "^1.0.2",
+    "@jridgewell/gen-mapping": "^0.3.2",
+    "@jridgewell/source-map": "^0.3.2",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
     "@testing-library/user-event": "^13.5.0",
+    "es-shim-unscopables": "^1.0.0",
+    "functions-have-names": "^1.2.3",
+    "has-property-descriptors": "^1.0.0",
+    "postcss-clamp": "^4.1.0",
+    "postcss-preset-env": "^7.8.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-draggable": "^4.4.5",
@@ -15,8 +27,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "server": "json-server db.json --watch --port 8080",
-    "build": "INLINE_RUNTIME_CHUNK=false react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -39,6 +50,12 @@
     ]
   },
   "devDependencies": {
-    "@types/styled-components": "^5.1.26"
+    "@types/styled-components": "^5.1.26",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "clang-format": "^1.8.0",
+    "parcel-bundler": "^1.12.5"
   }
 }
